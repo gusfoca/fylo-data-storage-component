@@ -1,0 +1,19 @@
+@media screen and (min-width: 760px) {
+
+    main {
+        width: calc(456.24px + 32.2vw);
+        height: 200px;
+    }
+    .actions-container {
+        display: inline-block; 
+        width: 38.04%;        
+    }
+    .storage-container {
+        display: inline-block;        
+        width: 58.16%;
+        max-width: initial;
+        margin-left: 3.8%;
+        margin-top: 0;
+        vertical-align: bottom;
+    }
+}

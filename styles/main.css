@@ -17,15 +17,6 @@
 
 }
 
-.attribution {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(0,0,0,0.1);
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -39,20 +30,27 @@ html {
   background-color: darkgray;
 }
 
-.actions-container {
-    display: inline-block;
-    vertical-align: top;
-    width: calc(316.2px + 2.35vw);
-    height: 200px;
+main {
+    /*width: calc(316.2px + 2.2vw);    */
+    width: 86.67%;
+    margin: calc(65.14px + 15.9vw) auto calc(116.6px + 13.4vw) auto;
 
+    outline: solid 1px green;
+}
+
+.actions-container {
+    width: 325px;
+    height: 200px;
+    margin: 0 auto;
     outline: solid 1px white;
 }
 
 .storage-container {
-    display: inline-block;
-    vertical-align: top;
-    width: calc(250px + 20vw);
     height: 155px;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 0 auto;
+
     outline: solid 1px white;
 }
 
@@ -67,4 +65,13 @@ html {
     content: "Used 815 GB";
     width: 200px;
     height: 200px;
+}
+
+.attribution {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.1);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
