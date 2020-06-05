@@ -34,11 +34,37 @@
 
 html {
   font-family: raleway, sans-serif;
+  font-size: 14px;
   font-weight: normal;
+  background-color: darkgray;
+}
+
+.actions-container {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(316.2px + 2.35vw);
+    height: 200px;
+
+    outline: solid 1px white;
+}
+
+.storage-container {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(250px + 20vw);
+    height: 155px;
+    outline: solid 1px white;
+}
+
+.logo {
+    background-image: url("../images/logo.svg");
+    background-size: contain;
+    width: 100px;
+    height: 29.6px;
 }
 
 .meter:after {
-    content: "Used " attr(data-value) " GB";
+    content: "Used 815 GB";
     width: 200px;
     height: 200px;
 }
