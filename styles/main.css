@@ -30,8 +30,20 @@ html {
   background-color: darkgray;
 }
 
+
+.attribution {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.1);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+/*                                    _____________________  
+/*====================================    Containers layout 
+*/
+
 main {
-    /*width: calc(316.2px + 2.2vw);    */
     width: 86.67%;
     margin: calc(65.14px + 15.9vw) auto calc(116.6px + 13.4vw) auto;
 
@@ -41,7 +53,8 @@ main {
 .actions-container {
     width: 325px;
     height: 200px;
-    margin: 0 auto;
+    margin: 0 auto;    
+
     outline: solid 1px white;
 }
 
@@ -53,25 +66,58 @@ main {
 
     outline: solid 1px white;
 }
+/*                                  End of Containers Layout
+/*==========================================================*/
 
-.logo {
+/*                                    ____________________
+/*====================================        Inner layout
+*/
+
+.actions-container {
+    padding: 40px;
+}
+
+.logo {    
     background-image: url("../images/logo.svg");
     background-size: contain;
-    width: 100px;
-    height: 29.6px;
+    width: 135px;
+    height: 40px;
+
+    outline: solid 1px black;
 }
+
+.buttons-container {
+    margin-top: 33px;
+}
+
+.action {
+    display: inline-block;
+    margin-left: 13px;
+    width: 48px;
+    height: 48px;
+    object-fit: fill;    
+
+    outline: solid 1px white;
+}
+
+.add-document {
+    margin-left: 0;
+    padding: 12px 14px 12px 14px;
+}
+
+.add-folder {
+    padding: 14px 12px 14px 12px;
+}
+
+.upload-file {
+    padding: 16px 12px 16px 12px;
+}
+
+/*                                       End of Inner layout  
+/*==========================================================*/
 
 .meter:after {
     content: "Used 815 GB";
     width: 200px;
     height: 200px;
-}
-
-.attribution {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(0,0,0,0.1);
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
