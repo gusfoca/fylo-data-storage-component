@@ -1,5 +1,9 @@
 @media screen and (min-width: 760px) {
 
+/*                                    _____________________  
+/*====================================    Containers layout 
+*/
+
     main {
         width: calc(456.24px + 32.2vw);
         height: 200px;
@@ -16,4 +20,36 @@
         margin-top: 0;
         vertical-align: bottom;
     }
+
+    /*                                  End of Containers Layout
+/*==========================================================*/
+
+/*                                    ____________________
+/*====================================        Inner layout
+*/
+
+    .storage-container {
+        padding: 40px 39px;
+    }
+
+    .storage-warning {
+        margin: 0;
+    }
+
+    .meter {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+        
+    .storage-label {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    
+
+/*                                       End of Inner layout  
+/*==========================================================*/
+
 }

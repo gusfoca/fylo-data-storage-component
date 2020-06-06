@@ -21,6 +21,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    outline: inherit;
 }
 
 html {
@@ -83,7 +84,6 @@ main {
     width: 135px;
     height: 40px;
 
-    outline: solid 1px black;
 }
 
 .buttons-container {
@@ -97,7 +97,6 @@ main {
     height: 48px;
     object-fit: fill;    
 
-    outline: solid 1px white;
 }
 
 .add-document {
@@ -113,11 +112,43 @@ main {
     padding: 16px 12px 16px 12px;
 }
 
+.storage-container {
+    position: relative;
+    padding: 32px 0;
+}
+
+.storage-warning {
+    margin: 0 auto;
+    width: 232px;
+}
+
+.meter {
+    width: 261px;
+    height: 18px;
+    margin: 17px auto 0 auto;    
+}
+
+.storage-label {
+    width: 264px;
+    font-size: 0.9rem;
+    margin: 8px auto 0 auto;
+}
+
+.storage-label > span {
+    display: inline-block;
+    width: 50%;
+}
+
+.storage-label > span:last-child {
+    text-align: right;
+}
+
+.bubble {
+    position: absolute;
+    width: 182px;
+    top: 100%;
+    left: calc(50% - 182px / 2);
+}
+
 /*                                       End of Inner layout  
 /*==========================================================*/
-
-.meter:after {
-    content: "Used 815 GB";
-    width: 200px;
-    height: 200px;
-}
