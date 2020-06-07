@@ -21,7 +21,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: inherit;
+    /*outline: inherit;*/
 }
 
 html {
@@ -54,13 +54,14 @@ main {
 .actions-container {
     width: 325px;
     height: 200px;
-    margin: 0 auto;    
+    margin: 0 auto;
+    border-radius: 10px 100px 10px 10px;
 
-    outline: solid 1px white;
+    border: solid 1px white;
 }
 
 .storage-container {
-    height: 155px;
+    height: 156px;
     width: 100%;
     max-width: 500px;
     margin: 20px auto 0 auto;
@@ -106,7 +107,8 @@ main {
     width: 48px;
     height: 48px;
     object-fit: fill;    
-
+    border-radius: 10px;
+    border: solid 1px white;
 }
 
 .add-document {
@@ -133,15 +135,37 @@ main {
 }
 
 .meter {
-    width: 261px;
+    width: 80.3%;
     height: 18px;
-    margin: 17px auto 0 auto;    
+    margin: 16px auto 0 auto;
+    border: solid 1px white;
+    border-radius: 9px;
+    padding: 2px;
+}
+
+.inner-gauge {
+    position: relative;
+    padding-top: 1px;
+    padding-right: 2px;
+    width: 75%;
+    height: 100%;
+    border: solid 1px white;
+    border-radius: 7px;
+}
+
+.gauge-ball {
+    float: right;
+    width: 8px;
+    height: 8px;
+    top: 10px;
+    border-radius: 7px;
+    border: solid 1px white;
 }
 
 .storage-label {
-    width: 264px;
+    width: 81.23%;
     font-size: 0.9rem;
-    margin: 8px auto 0 auto;
+    margin: 9px auto 0 auto;
 }
 
 .storage-label > span {
@@ -157,7 +181,8 @@ main {
     padding-left: 24px;
     border-right-color: white;      
     vertical-align: middle;
-    line-height: 73px;            
+    line-height: 73px;
+    border-radius: 11px;
 }
 
 .bubble > span:first-child {

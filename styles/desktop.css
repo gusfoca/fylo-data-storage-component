@@ -57,8 +57,9 @@
         width: 100%;
     }
     
-    .bubble {    
+    .bubble {
         border-bottom-color: blue;
+        border-bottom-right-radius: 0;
     }
 
 /*                                       End of Inner layout  
