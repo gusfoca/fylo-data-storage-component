@@ -67,6 +67,16 @@ main {
 
     outline: solid 1px white;
 }
+
+.bubble {
+    position: absolute;
+    text-transform: uppercase;
+    width: 179px;
+    height: 71px;
+    border-right: solid 21px;
+    top: calc(100% - 35px);
+    left: calc(50% - 89px);
+}
 /*                                  End of Containers Layout
 /*==========================================================*/
 
@@ -143,11 +153,24 @@ main {
     text-align: right;
 }
 
-.bubble {
-    position: absolute;
-    width: 182px;
-    top: 100%;
-    left: calc(50% - 182px / 2);
+.bubble {    
+    padding-left: 24px;
+    border-right-color: white;      
+    vertical-align: middle;
+    line-height: 73px;            
+}
+
+.bubble > span:first-child {
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.bubble > span:last-child {
+    position: relative;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    top: -8px;
+    left: 12px;
 }
 
 /*                                       End of Inner layout  

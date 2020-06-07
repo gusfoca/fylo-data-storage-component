@@ -21,7 +21,16 @@
         vertical-align: bottom;
     }
 
-    /*                                  End of Containers Layout
+    .bubble {              
+        width: 179px;
+        height: 92px;
+        border-bottom: solid 21px;        
+        top: min(-47px, calc(4.853vw - 116.88px)); /*-47px*/
+        left: unset;
+        right: 36px;
+    }
+
+/*                                  End of Containers Layout
 /*==========================================================*/
 
 /*                                    ____________________
@@ -48,6 +57,9 @@
         width: 100%;
     }
     
+    .bubble {    
+        border-bottom-color: blue;
+    }
 
 /*                                       End of Inner layout  
 /*==========================================================*/
