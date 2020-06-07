@@ -4,14 +4,16 @@
 /*====================================    Containers layout 
 */
 
-    main {
+    .main-container {
         width: calc(456.24px + 32.2vw);
         height: 200px;
     }
+
     .actions-container {
         display: inline-block; 
         width: 38.04%;        
     }
+
     .storage-container {
         display: inline-block;        
         width: 58.16%;
@@ -29,7 +31,6 @@
         left: unset;
         right: 36px;
     }
-
 /*                                  End of Containers Layout
 /*==========================================================*/
 
@@ -58,10 +59,16 @@
     }
     
     .bubble {
-        border-bottom-color: blue;
+        border-bottom-color: hsl(228, 50%, 35%);
         border-bottom-right-radius: 0;
     }
 
+    .background-image {
+        top: 47.5%;
+        height: 52.5%;
+        background-size: cover;
+        background-image: url("../images/bg-desktop.svg");
+    }
 /*                                       End of Inner layout  
 /*==========================================================*/
 
