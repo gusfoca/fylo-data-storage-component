@@ -71,14 +71,18 @@ main {
     border-radius: 10px;
 }
 
-.bubble {
+.bubble-container {
     position: absolute;
-    text-transform: uppercase;
     width: 179px;
     height: 71px;
-    border-right: solid 21px;
     top: calc(100% - 35px);
     left: calc(50% - 89px);
+}
+
+.bubble {
+    width: 179px;
+    height: 71px;
+    text-transform: uppercase;
 }
 /*                                  End of Containers Layout
 /*==========================================================*/
@@ -191,9 +195,13 @@ main {
     text-align: right;
 }
 
+.bubble-container {
+    border-radius: 11px;
+}
+
 .bubble {    
     padding-left: 24px;
-    border-right-color: white;      
+    /*border-right-color: white;      */
     vertical-align: middle;
     line-height: 73px;
     border-radius: 11px;

@@ -23,11 +23,10 @@
         vertical-align: bottom;
     }
 
-    .bubble {              
+    .bubble-container {
         width: 179px;
         height: 92px;
-        border-bottom: solid 21px;        
-        top: min(-47px, calc(4.853vw - 116.88px)); /*-47px*/
+        top: min(-47px, calc(3.38vw - 95.69px)); /*-47px*/
         left: unset;
         right: 36px;
     }
@@ -57,9 +56,10 @@
         margin-right: 0;
         width: 100%;
     }
-    
-    .bubble {
-        border-bottom-color: hsl(228, 50%, 35%);
+
+    .bubble-container {
+        border-bottom: solid 21px hsl(228, 50%, 35%);
+        border-right: solid 21px white;
         border-bottom-right-radius: 0;
     }
 
