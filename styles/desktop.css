@@ -3,6 +3,9 @@
 /*                                    _____________________  
 /*====================================    Containers layout 
 */
+    main {
+        height: max(100vh, 55.6vw);
+    }
 
     .main-container {
         width: calc(456.24px + 32.2vw);
